@@ -9,7 +9,7 @@ let fromPrivateKey= '0xb77de610fb69f929f9ce38e07bc003bb8dfffc9024c0af0da26ab2d0a
 let fromAddress = 'GNC30095Bb2A16CC8f4b897F511D2B62Fb8a0c2F0ec';
 
 if (!web3.utils.isAddress(fromAddress)){
-  console.log("address ")
+  console.log("address is unverifity")
   return
 }
 
