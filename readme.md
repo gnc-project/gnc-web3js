@@ -3,8 +3,7 @@
 ```txt
 this is web3js for gnc
 ```
-
-### hao to download
+### haw to download
 
 ```npm
     npm install gncweb3

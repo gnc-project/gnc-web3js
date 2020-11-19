@@ -5,13 +5,14 @@ var web3 = new Web3(new Web3.providers.HttpProvider("http://chain-node.galaxynet
 
 var toAddress ='GNC6cBe9DF6DF54281D363e7a5e1790dc66212438C7'
 
-let fromPrivateKey= '0xb77de610fb69f929f9ce38e07bc003bb8dfffc9024c0af0da26ab2d0a052492e';
-let fromAddress = 'GNC30095Bb2A16CC8f4b897F511D2B62Fb8a0c2F0ec';
+let fromPrivateKey= 'a59bc058eb76eea5b64f1e55a803aa0968efda8a943f8f7eb835a6df9ac3a835';
+let fromAddress = 'GNC7d4ed9084A364424d1087d26C4Ef092EAfB0b395';
 
 if (!web3.utils.isAddress(fromAddress)){
-  console.log("address ")
+  console.log("address is unverifity")
   return
 }
+
 
 var rawTx={
     from:fromAddress,
